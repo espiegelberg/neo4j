@@ -153,7 +153,7 @@ public interface PropertyContainer
      * {@code PropertyContainer} at some point will get the old id. <b>Note</b>: this makes
      * {@code PropertyContainer} ids brittle as public APIs.
      *
-     * @return The id of this  {@code PropertyContainer}.
+     * @return The id of this {@code PropertyContainer}.
      */
     long getId();
 }
