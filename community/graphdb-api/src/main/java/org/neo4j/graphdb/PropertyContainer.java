@@ -147,13 +147,13 @@ public interface PropertyContainer
     Map<String, Object> getAllProperties();
 
     /**
-     * Returns the unique id of this <code>PropertyContainer</code>. Ids are garbage collected over time
+     * Returns the unique id of this {@code PropertyContainer}. Ids are garbage collected over time
      * so they are only guaranteed to be unique during a specific time span: if
-     * the  <code>PropertyContainer</code> is deleted, it's likely that a new
-     * <code>PropertyContainer</code> at some point will get the old id. <b>Note</b>: this makes
-     * <code>PropertyContainer</code> ids brittle as public APIs.
+     * the {@code PropertyContainer} is deleted, it's likely that a new
+     * {@code PropertyContainer} at some point will get the old id. <b>Note</b>: this makes
+     * {@code PropertyContainer} ids brittle as public APIs.
      *
-     * @return The id of this  <code>PropertyContainer</code>.
+     * @return The id of this  {@code PropertyContainer}.
      */
     long getId();
 }
