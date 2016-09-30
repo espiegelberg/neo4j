@@ -33,5 +33,4 @@ public interface IdablePropertyContainer extends PropertyContainer {
      */
      long getId();
 
-     
 }
