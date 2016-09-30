@@ -19,7 +19,7 @@
  */
 package org.neo4j.graphdb;
 
-public interface IdablePropertyContainer extends PropertyContainer {
+public interface IdentifiablePropertyContainer extends PropertyContainer {
 
     /**
      * Returns the unique id of this {@link PropertyContainer}. Id's are garbage
